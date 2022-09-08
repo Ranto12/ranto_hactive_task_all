@@ -1,10 +1,9 @@
 import { AboutMeetup, CardPastMeetups, Footer, Member, Navbar, NextMeetup, Profil } from './Component'
-import { Line } from './Component/atoms'
 
 function App() {
   return (
     <div className=''>
-      <Navbar/>
+      <Navbar />
       <Profil/>
       <NextMeetup/>
       <AboutMeetup/>
